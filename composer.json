@@ -1,0 +1,23 @@
+{
+    "name": "bright-webb/slate",
+    "description": "Slate is a minimalistic PHP micro-framework used for developing lightweight backend applications. It comes pre-configured with the basic tools necessary for building web applications, providing developers with a starting point for their projects. The framework is designed to be fast and easy to use, while still providing developers with the flexibility to customize and add functionality as needed.",
+    "type": "project",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Slate\\": "src/"
+        },
+        "files": [
+            "Helpers/Helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bright Webilor",
+            "email": "me@brightwebb.dev"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

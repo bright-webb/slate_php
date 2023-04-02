@@ -1,0 +1,36 @@
+{
+    "name": "slate",
+    "version": "1.0.0",
+    "description": "Slate app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production",
+        "watch": "webpack --mode development --watch",
+        "dev": "webpack --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.0.2",
+        "jquery": "^3.6.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "@babel/preset-env": "^7.21.4",
+        "babel-loader": "^9.1.2",
+        "css-loader": "^6.7.3",
+        "mini-css-extract-plugin": "^2.7.5",
+        "node-sass": "^8.0.0",
+        "postcss": "^8.4.21",
+        "postcss-loader": "^7.1.0",
+        "sass": "^1.60.0",
+        "sass-loader": "^13.2.2",
+        "style-loader": "^3.3.2",
+        "webpack": "^5.77.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.13.1"
+    }
+}
