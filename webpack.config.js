@@ -1,12 +1,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const outputDir = "./www/assets"
+const outputDir = "./assets"
 
 module.exports = (env) => {
   return [{
     entry: {
-        main: ['./www/js/app.js', './www/scss/app.scss'],
+        main: ['./js/app.js', './scss/app.scss'],
     },
     output: {
       path: path.join(__dirname, outputDir),

@@ -19,7 +19,7 @@ require_once("loader.php");
         <div class="row d-flex justify-content-center w-100">
             <div class="col-md-6">
                 <h1>Slate php</h1>
-                <p>BOOTSTRAP</p>
+                <p>everything went well</p>
             </div>
         </div>
     <script src="assets/js/main.js"></script>
